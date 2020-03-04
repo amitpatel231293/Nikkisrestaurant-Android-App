@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:layout_marginTop="45dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/traditional_pizza_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/traditional_pizzas"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Traditional Pizza"></TextView>
+        </FrameLayout>
+
+
+
+        <ImageView
+            android:id="@+id/gourmet_pizza_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/gourmet_pizzas"></ImageView>
+
+        <ImageView
+            android:id="@+id/pastas_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pastas"></ImageView>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/burgers_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/burgers"></ImageView>
+
+        <ImageView
+            android:id="@+id/salads_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/salads"></ImageView>
+        <ImageView
+            android:id="@+id/ribs_n_wings_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ribs_n_wings"></ImageView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/deserts_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/desserts"></ImageView>
+
+        <ImageView
+            android:id="@+id/milkshakes_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/milkshake"></ImageView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maintain_button"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Maintain Products"
+        android:layout_above="@+id/admin_check_orders_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/admin_check_orders_button"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check New Orders"
+        android:layout_above="@+id/admin_logout_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/admin_logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

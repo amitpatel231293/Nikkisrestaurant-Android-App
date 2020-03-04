@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672929140612",
+    "firebase_url": "https://jamiespizza-1a225.firebaseio.com",
+    "project_id": "jamiespizza-1a225",
+    "storage_bucket": "jamiespizza-1a225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672929140612:android:06ac712f64c403d2e957d1",
+        "android_client_info": {
+          "package_name": "com.example.jamiespizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672929140612-826itgm4q1n1gbsmtjb8lsfv0s5e72bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jamiespizza",
+            "certificate_hash": "a3223fcd11c1e5e00a2733d450613dfc0d1db9a0"
+          }
+        },
+        {
+          "client_id": "672929140612-tqfnk7r39037tepku7jo22iff4do6iou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJqkSRPwxSHD3W8o3fE-TijXKef4FuVeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672929140612-tqfnk7r39037tepku7jo22iff4do6iou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

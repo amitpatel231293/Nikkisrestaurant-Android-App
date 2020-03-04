@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Nikkisrestaurant">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Nikkisrestaurant.AdminMaintainProductsActivity"></activity>
+        <activity android:name="com.example.Nikkisrestaurant.SearchProductsActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.AdminUserProductActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.AdminNewOrdersActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.ConfirmFinalOrderActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.CartActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.ProductDetailsActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.SettingsActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.HomeActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.AdminCategoryActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.AdminAddNewProductActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.RegisterActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.LoginActivity" />
+        <activity android:name="com.example.Nikkisrestaurant.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>
